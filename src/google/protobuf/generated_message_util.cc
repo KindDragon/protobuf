@@ -48,7 +48,7 @@ double NaN() {
   return std::numeric_limits<double>::quiet_NaN();
 }
 
-ExplicitlyConstructed< ::std::string> fixed_address_empty_string;
+LIBPROTOBUF_EXPORT ExplicitlyConstructed< ::std::string> fixed_address_empty_string;
 GOOGLE_PROTOBUF_DECLARE_ONCE(empty_string_once_init_);
 
 void DeleteEmptyString() { fixed_address_empty_string.Shutdown(); }

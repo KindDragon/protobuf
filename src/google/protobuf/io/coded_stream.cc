@@ -79,7 +79,7 @@ CodedInputStream::~CodedInputStream() {
 }
 
 // Static.
-int CodedInputStream::default_recursion_limit_ = 100;
+LIBPROTOBUF_EXPORT int CodedInputStream::default_recursion_limit_ = 100;
 
 
 void CodedOutputStream::EnableAliasing(bool enabled) {
